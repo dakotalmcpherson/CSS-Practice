@@ -1,0 +1,68 @@
+/* Top Header Styling */
+
+section#topheader{
+height: 80px;
+background-color: #dda15e;
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+}
+
+#topheader h1 {
+    margin-left: 20px;
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+#topheader h2 {
+    justify-self: flex-end;
+    color: white;
+}
+
+/* Navigation Bar Styling */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #606c38;
+    align-items: center;
+}
+
+/* Side Box Styling */
+
+div.sideinfo {
+    background-color: #606c38;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 200px;
+}
+
+.sideinfo h1 {
+    text-align: center;
+    color: white;
+}
+
+.sideinfo li {
+    color: white;
+    text-align: center;
+}
+
+/* Content Styling */
+
+
+/* Body Styling */
+
+.mainnav li, a {
+    display: inline;
+    margin-right: 10px;
+    color: white;
+}
+
+body {
+    background-color: #fefae0;
+    margin: 0%;
+}
+
+ul {list-style-type: none;}
